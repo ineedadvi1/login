@@ -1,2 +1,10 @@
-<script type="text/javascript" src="https://www.authpro.com/auth/ineedadvil/?action=pp">
+<script type="text/javascript">
+  function redirectIfSussy() {
+    var userInput = document.getElementById("myInput").value.toLowerCase();
+    if (userInput === "sussy") {
+      window.location.href = "https://sites.google.com/view/julia-is-my-woman";
+    }
+  }
 </script>
+
+<input type="text" id="myInput" onkeyup="redirectIfSussy()" placeholder="Type something...">
